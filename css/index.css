@@ -1,0 +1,74 @@
+html,
+body {
+	margin: 0;
+	display: flex;
+	flex-direction: row;
+	min-width: 100%;
+	min-height: 100%;
+	background-color: rgb(113, 89, 193);
+}
+
+@font-face {
+	font-family: Museosans;
+	src: url("../fonts/Museo_Sans.otf");
+}
+
+#info-container {
+	display: flex;
+	flex-direction: column;
+	width: 27%;
+	padding: 75px 85px 50px;
+	justify-content: center;
+	background-color: #fafafa;
+}
+
+h1 {
+	margin: 0;
+	font-family: "Fira Sans", sans-serif;
+	font-weight: 800;
+	color: #4a4a4a;
+}
+
+p {
+	margin-top: 5px;
+	padding-right: 30px;
+	font-family: "Fira Sans", sans-serif;
+	opacity: 0.8;
+}
+
+.m35 {
+	margin-top: 25px;
+}
+
+.justify {
+	text-align: justify;
+}
+
+#icons {
+	margin-top: 45px;
+	padding-right: 30px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+#icons i {
+	font-size: 30px;
+	color: #4a4a4a;
+	opacity: 0.6;
+}
+
+#github:hover {
+	color: #000;
+	opacity: 1;
+}
+
+#linkedin:hover {
+	color: #2977c9;
+	opacity: 1;
+}
+
+#instagram:hover {
+	color: #c13584;
+	opacity: 1;
+}
